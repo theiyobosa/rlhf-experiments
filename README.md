@@ -6,6 +6,7 @@ This application contains my experiments with RLHF.
 ## Tools
 - SentenceTransformers
 - HuggingFace datasets
+- MLFlow
 - PyTorch
 - Tqdm
 
