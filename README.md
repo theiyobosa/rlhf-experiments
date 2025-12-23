@@ -1,7 +1,7 @@
 # RLHF Experiments
 
 ## About
-This application contains my experiments with RLHF.
+This repository contains my experiments with RLHF.
 
 ## Tools
 - SentenceTransformers
@@ -47,4 +47,4 @@ This approach is way more sophisticated, it uses a good embedding model to captu
 (Human Input Prompt + Rejected AI Response) -> Pretrained Embedding Model that Will be Trained -> Neural Net -> Predicted Rating of Rejected Response
 
 #### 1.3. Limitations
-I did these experiments on my personal laptop, and because of the high computational resource and the amount of time it will take to test every tweak, I decided to end the experimentation as soon as I could (I have a day job). As a result, you'll notices there's some overfitting in the training, I intentionally left it like this. This experiment is aimed at showing how to just train a simple RLHF model. I didn't have the time to continue this experiment further.
+I did these experiments on my personal laptop, and because of the high computational resource needed and the amount of time it will take to test every tweak, I decided to end the experimentation as soon as I could (I have a day job). As a result, you'll notice there's some overfitting in the training, I intentionally left it like this. This experiment is aimed at showing how to just train a simple RLHF model. I didn't have the time to continue this experiment further.
